@@ -6,15 +6,60 @@
     <title>DaxOS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Documentation</li>
-            <li>Github</li>
-            <li>News</li>
-            <li>Screenshots</li>
-        </ul>
-    </nav>
+    <header class="display_grid grid-col-1-3">
+        <div>
+            <div class="logo"></div>
+        </div>
+        <nav class="align-right center-vertically">
+            <ul>
+                <li>Documentation</li>
+                <li>Github</li>
+                <li>News</li>
+                <li>Screenshots</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="display_grid grid-col-1-1">
+        <div class="intro-text">
+            <p> <span class="bold">DaxOS</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies dui quis ipsum commodo, sit amet suscipit turpis tempus. </p>
+        </div>
+
+        <div class="text-center center-vertically">
+            <a href="#" class="btn">Pull from Github</a>
+        </div>
+    </section>
+
+    <section class="display_grid grid-col-1-1">
+        <div class="items">
+            <ul>
+                <li>Written in C & Assembly</li>
+                <li>Uses GNU Make</li>
+                <li>Monolithic kernel design</li>
+                <li>GPL V3 Licensed</li>
+            </ul>
+        </div>
+        <div class="items">
+            <ul>
+                <li>Written in C & Assembly</li>
+                <li>Uses GNU Make</li>
+                <li>Monolithic kernel design</li>
+                <li>GPL V3 Licensed</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="screen text-center">
+        <div>DaxOS boot screen</div>
+        <img src="https://i.imgur.com/apDO3K5.png">
+    </section>
+
+    <footer class="text-center">
+        Copyright © 2020 by <a href="#">DaxOS Developer</a>
+    </footer>
 </body>
+
 </html>
